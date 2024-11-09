@@ -1,0 +1,34 @@
+.hero-bg {
+    background: url('/src/assets/hero-bg.jpg') center/cover no-repeat;
+    height: 75vh; /* Cover 75% of the viewport height */
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-bg {
+      height: 60vh; /* Slightly smaller for mobile screens */
+    }
+  }
+  
+  .hero-bg h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .hero-bg p {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-bg h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-bg p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.mission-vision {
+  background-color: #f8f9fa;
+}
+
+.mission-vision h4 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.mission-vision p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.faq-section h2 {
+  color: #007bff;
+  font-weight: 700;
+}

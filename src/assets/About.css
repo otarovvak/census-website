@@ -1,0 +1,57 @@
+.block-layout {
+    margin-top: 3rem;
+  }
+  
+  .block-left {
+    background-color: #003366;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; /* Set a minimum height to keep it even */
+    padding: 3rem; /* Add padding for better text layout */
+  }
+  
+  .block-left .text-content {
+    max-width: 80%;
+  }
+  
+  .block-right {
+    background: url('/src/assets/census-bg.jpg') center/cover no-repeat;
+    position: relative;
+    min-height: 400px; /* Set a minimum height to match the left block */
+    padding: 3rem; /* Add padding for better alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-text {
+    background: rgba(0, 0, 0, 0.5); /* Add semi-transparent background to improve readability */
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+    max-width: 80%;
+  }
+  
+  .overlay-text h4 {
+    font-weight: 600;
+  }
+  
+  .overlay-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .block-left, .block-right {
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .overlay-text h2 {
+      font-size: 1.8rem;
+    }
+  }
+  

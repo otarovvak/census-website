@@ -1,0 +1,20 @@
+.data-insights {
+    background-color: #f3f4f6; /* Light gray background for better readability */
+    padding: 2rem;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+  
